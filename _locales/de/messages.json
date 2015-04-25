@@ -1,0 +1,27 @@
+{
+
+   "appName": {
+    "message": "Oculi",
+    "description": "The title of the application, displayed in the web store."
+  },
+	 "appDesc": {
+    "message": "Surfen Sie mit Leichtigkeit!", 
+    "description":"The description of the application, displayed in the web store."
+  },
+
+
+	"app_start_explanation": {
+		"message": "Willkommen bei Oculus Verlängerung! Sie sind momentan in Durchsuchen eine Seite."
+	},
+
+
+	"menu_browse_page":{
+		"message": "Browse a page."
+	},
+	"menu_populo":{
+		"message": "Populo."
+	},
+	"menu_settings":{
+		"message": "Settings."
+	}
+}

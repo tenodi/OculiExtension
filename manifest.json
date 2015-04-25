@@ -1,0 +1,68 @@
+// TODO provjeriti jel doista potreban tabs ili se moze preko activeTab permissiona
+{
+  "name": "__MSG_appName__",
+  "description": "__MSG_appDesc__",
+  "version": "1.0",
+  "default_locale": "en",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*", "tts", "storage"
+  ],
+  "browser_action": {
+      "default_title": "Set this page's color.",
+      "default_icon": "images/transparent_icon.png",
+      "default_popup": "start_popup.html"
+  },
+  "background": {
+    "scripts": [
+      "js/jquery-2.1.3.min.js",
+      "background-scripts/CONSTANTS.js",
+      "background-scripts/BackgroundConstructor.js",
+      "background-scripts/ExtensionState.js", 
+      "background-scripts/PopuloNavigationState.js",
+      "background-scripts/OculiExtension.js", 
+      "background-scripts/KeyHandlers.js", 
+      "background-scripts/ExtensionMenu.js",
+      "background-scripts/PopuloMenu.js"
+    ],
+    "persistent": false
+  },
+  "manifest_version": 2,
+  "web_accessible_resources":[
+    "ui-elements/*", "newtab.html"
+  ],
+
+  "chrome_url_overrides" : {
+    "newtab": "overriding-page/newtab.html"
+  },
+
+  "commands": {
+    "left":{
+      "suggested_key": {
+        "default": "Ctrl+Shift+Left",
+        "mac": "MacCtrl+Shift+Left"
+      },
+      "description": "Left arrow key is pressed"
+    },
+    "right":{
+      "suggested_key": {
+        "default": "Ctrl+Shift+Right",
+        "mac": "MacCtrl+Shift+Right"
+      },
+      "description": "Right arrow key is pressed"
+    },
+    "enter":{
+      "suggested_key": {
+        "default": "Ctrl+Shift+Space",
+        "mac": "MacCtrl+Shift+Space"
+      },
+      "description": "Enter arrow key is pressed"
+    },
+    "back": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Delete",
+        "mac": "MacCtrl+Shift+Delete"
+      },
+      "description": "Change on/off state of application"
+    }
+  }
+}

@@ -1,0 +1,58 @@
+{
+
+  "appName": {
+    "message": "Oculi",
+    "description": "The title of the application, displayed in the web store."
+  },
+	 "appDesc": {
+    "message": "Surf the web with ease!", 
+    "description":"The description of the application, displayed in the web store."
+  },
+	"app_start_explanation": {
+		"message": "Welcome to Oculi extension! Navigate through menu with arrow keys. Up and down for the same level of menu, right to go level deeper, and left to exit level. You're currently on Browse a page."
+	},
+	"loading":{
+		"message": "Loading..."
+	},
+
+
+
+	"menu_browse_page":{
+		"message": "Browse a page."
+	},
+		"menu_browse_with_oculi":{
+			"message": "Browse with Oculi."
+		},
+		"menu_browse_normal":{
+			"message": "Browse manually"
+		},
+
+
+	"menu_populo":{
+		"message": "Populo."
+	},
+		"menu_populo_navigation":{
+			"message": "Navigate through Populo"
+		},
+		"menu_populo_my_profile":{
+			"message": "My profile"
+		},
+
+
+	"menu_settings":{
+		"message": "Settings."
+	},
+
+
+
+	// POPULO MENU
+	"populo_menu_communities":{
+		"message":"Welcome to Populo! You're on: "
+	},
+
+	"populo_menu_categories":{
+		"message": "Categories. You're on: "
+	}
+	
+	
+}
